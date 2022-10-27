@@ -1,0 +1,25 @@
+{
+	"labelledTweets": "data/raw_data/labelled_tweets",
+	"rawTweets" : "data/raw_data/raw_tweets",
+	"processedData":"data/preprocessed_data",
+	"utilData" : "data/utils_data",
+	"modelData" : "data/models",
+	"nerData" : "data/utils_data/ner_training",
+
+	"preprocessedLabel": "data/preprocessed_data/labelled_tweets",
+	"preprocessedPredict": "data/preprocessed_data/predict_tweets",
+
+	"termUnitWords": "data/utils_data/idmc_terms_units.csv",
+	"triggerWords": "data/utils_data/idmc_triggers.csv",
+
+	"models_config" : "config/data_classification/model_config.json",
+	"query_config" : "config/data_acquisition/query_twitter_config.json",
+	"secrets" : "config/data_acquisition/secrets.json",
+	"keywords" : "config/keywords.json",
+	
+	"word2vec" : "data/utils_data/word2vec_twitter_tokens.bin",
+ 
+	"results":"results",
+	"resultsPredictions":"results/predictions",
+	"resultsModels":"results/modelResults"
+}
