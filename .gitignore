@@ -5,15 +5,19 @@ data/models/**
 data/preprocessed_data/labelled_tweets/**
 data/preprocessed_data/predict_tweets/**
 data/raw_data/raw_tweets/**
+data/raw_data/labelled_tweets/**
 data/utils_data/word2vec_twitter_tokens.bin
 data/utils_data/ner_training/custom_NER
 data/utils_data/idmc_terms_units.csv
-data/utils_data/idmc_trigger.csv
+data/utils_data/idmc_triggers.csv
 
 config/keywords.json
-config/acquisition/secrets.json
+config/data_acquisition/secrets.json
 
-
+results/analysis/**
+results/modelResults/**
+results/plt/**
+results/predictions/**
 
 # exception to the rule
 !data/.gitkeep 
@@ -30,3 +34,4 @@ config/acquisition/secrets.json
 !results/analysis/.gitkeep 
 !results/predictions/.gitkeep 
 !results/modelResults/.gitkeep 
+!results/plt/.gitkeep
