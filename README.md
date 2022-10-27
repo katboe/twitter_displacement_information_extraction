@@ -1,7 +1,11 @@
 # Social Media Monitoring Tool for Internal Displacement Data from Twitter
 
+<p align="center">
+<img src="https://github.com/katboe/twitter_displacement_information_extraction/blob/main/tweets_distribution_map.gif" width="900"/>
+</p>
+
 ## Description
-This repository contains the python implementation for training a model that tracks relevant tweets for internal displacement monitoring and extracts their important information. The project is a collaboration with the NGO IDMC and was performed as part of the Data Science Hackathon "Hack4Good" by the Analytics Club at ETH Zurich. General information on the project can be found in the general report (Report_General.pdf) and technical details are explained in the technical report (Report_Technical.pdf). A high-level blogpost on this project can be found on IDMC's [Expert Opinion](https://www.internal-displacement.org/expert-opinion/exploring-machine-learning-workflows-to-filter-out-internal-displacement-events-on) website.
+This repository contains the python implementation for training a model that tracks relevant tweets for internal displacement monitoring and extracts their important information. The project is a collaboration with the NGO IDMC and was performed as part of the Data Science Hackathon "Hack4Good" by the Analytics Club at ETH Zurich. General information on the project can be found in the general report (Report_General.pdf) and technical details are explained in the technical report (Report_Technical.pdf). A blogpost on this project can be found on IDMC's [Expert Opinion](https://www.internal-displacement.org/expert-opinion/exploring-machine-learning-workflows-to-filter-out-internal-displacement-events-on) website.
 
 ## Installation and Prerequisits
 1. Setup the environment by installing all requirements: `pip install -r requirements.txt`.
